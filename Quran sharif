@@ -1,0 +1,14 @@
+// Retrieve all surahs
+const allSurahs = quran.getAllSurah();
+
+// Get surah by ID
+const surah = quran.getSurahById({ id: 1 });
+
+// Get a list of surah names
+const surahNames = quran.getSurahName();
+
+// Filter surahs by revelation type
+const makkiSurahs = quran.getSurahByRevelationType({ isMakki: true });
+
+// Get ayahs by Juz ID
+const juzAyahs = quran.getJuz({ id: 1 });
